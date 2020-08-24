@@ -1,0 +1,60 @@
+@charset "utf-8";
+
+@import "./base.scss";
+@import "./color.scss";
+
+/*コンテナー
+---------------------------------------------------------------------------*/
+#container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  .logo {
+    max-width: 1000px;
+  }
+
+  .description {
+    width: auto;
+    height: auto;
+  }
+
+  .radios {
+    width: 100%;
+    max-width: 1500px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    .radio__item {
+      margin: 20px;
+      max-width: 300px;
+    }
+  }
+}
+
+/*画面幅1000px以下の設定
+------------------------------------------------------------------------------------------------------------------------------------------------------*/
+@media screen and (max-width: 1000px) {
+  /*コンテナー（HPを囲む一番外側のブロック）
+---------------------------------------------------------------------------*/
+  #container {
+    padding: 0px 4%;
+  }
+}
+
+// /*PAGE TOP設定
+// ---------------------------------------------------------------------------*/
+#pagetop a {
+  clear: both;
+  color: #fff; /*文字色*/
+  font-size: 20px; /*文字サイズ*/
+  padding: 0px 30px; /*上下、左右へのボックス内余白*/
+  background: #333; /*背景色*/
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  float: right;
+  border-radius: 4px 4px 0px 0px; /*角丸のサイズ。左上、右上、右下、左下。*/
+}
