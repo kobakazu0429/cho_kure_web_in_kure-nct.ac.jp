@@ -1,0 +1,1 @@
+# cho_kure_web_in_kure-nct.ac.jp
