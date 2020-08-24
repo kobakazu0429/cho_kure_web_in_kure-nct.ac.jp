@@ -6,11 +6,15 @@
   "author": "kobakakzu0429 <kobakazu10@gmail.com>",
   "scripts": {
     "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html"
+    "build": "parcel build src/index.html --no-minify"
   },
   "devDependencies": {
     "@babel/core": "^7.11.4",
+    "autoprefixer": "^9.8.6",
     "parcel-bundler": "^1.12.4",
     "sass": "^1.26.10"
-  }
+  },
+  "browserslist": [
+    "since 2017"
+  ]
 }
