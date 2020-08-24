@@ -1,0 +1,7 @@
+{
+  "name": "cho_kure_web_in_kure-nct.ac.jp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "ssh://git@github.com/kobakazu0429/cho_kure_web_in_kure-nct.ac.jp.git",
+  "author": "kobakakzu0429 <kobakazu10@gmail.com>"
+}
