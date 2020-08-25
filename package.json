@@ -13,8 +13,5 @@
     "autoprefixer": "^9.8.6",
     "parcel-bundler": "^1.12.4",
     "sass": "^1.26.10"
-  },
-  "browserslist": [
-    "since 2017"
-  ]
+  }
 }

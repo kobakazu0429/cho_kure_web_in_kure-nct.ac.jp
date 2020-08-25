@@ -7,9 +7,8 @@
 *,
 *:before,
 *:after {
-  -o-box-sizing: border-box;
-  -ms-box-sizing: border-box;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 body {
@@ -28,16 +27,10 @@ body {
   -webkit-text-size-adjust: none;
 }
 
-p,
-ul,
-li {
+p {
   margin: 0px;
   padding: 0px;
   font-size: 100%;
-}
-
-ul {
-  list-style-type: none;
 }
 
 img {
@@ -63,9 +56,16 @@ footer {
 ---------------------------------------------------------------------------*/
 #container {
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 #container .logo {
   max-width: 1000px;
@@ -77,9 +77,14 @@ footer {
 #container .radios {
   width: 100%;
   max-width: 1500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 #container .radios .radio__item {
   margin: 20px;
@@ -113,4 +118,4 @@ footer {
   /*角丸のサイズ。左上、右上、右下、左下。*/
 }
 
-/*# sourceMappingURL=style.9f9c860f.css.map */
+/*# sourceMappingURL=style.9dd88219.css.map */
