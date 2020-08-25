@@ -76,8 +76,9 @@ footer {
   max-width: 1000px;
 }
 #container .description {
-  width: auto;
   height: auto;
+  width: auto;
+  max-width: 100%;
 }
 #container .radios {
   width: 100%;
@@ -126,4 +127,4 @@ footer {
   /*角丸のサイズ。左上、右上、右下、左下。*/
 }
 
-/*# sourceMappingURL=style.0fa65ad4.css.map */
+/*# sourceMappingURL=style.579c8186.css.map */
