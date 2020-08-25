@@ -66,6 +66,7 @@ footer {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  padding-top: 20px;
 }
 #container .logo-wrapper {
   width: 100%;
@@ -76,8 +77,9 @@ footer {
   max-width: 1000px;
 }
 #container .description {
-  width: auto;
   height: auto;
+  width: auto;
+  max-width: 100%;
 }
 #container .radios {
   width: 100%;

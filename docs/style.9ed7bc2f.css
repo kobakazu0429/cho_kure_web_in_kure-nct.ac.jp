@@ -66,6 +66,7 @@ footer {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  padding-top: 20px;
 }
 #container .logo-wrapper {
   width: 100%;
@@ -127,4 +128,4 @@ footer {
   /*角丸のサイズ。左上、右上、右下、左下。*/
 }
 
-/*# sourceMappingURL=style.579c8186.css.map */
+/*# sourceMappingURL=style.9ed7bc2f.css.map */
