@@ -108,6 +108,7 @@ footer {
   ---------------------------------------------------------------------------*/
   #container {
     padding: 0px 4%;
+    padding-top: 20px;
   }
 }
 #pagetop a {
@@ -128,4 +129,4 @@ footer {
   /*角丸のサイズ。左上、右上、右下、左下。*/
 }
 
-/*# sourceMappingURL=style.9ed7bc2f.css.map */
+/*# sourceMappingURL=style.49439401.css.map */
