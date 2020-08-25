@@ -67,7 +67,12 @@ footer {
       -ms-flex-direction: column;
           flex-direction: column;
 }
+#container .logo-wrapper {
+  width: 100%;
+  max-width: 1000px;
+}
 #container .logo {
+  width: 100%;
   max-width: 1000px;
 }
 #container .description {
@@ -121,4 +126,4 @@ footer {
   /*角丸のサイズ。左上、右上、右下、左下。*/
 }
 
-/*# sourceMappingURL=style.3a1af1d2.css.map */
+/*# sourceMappingURL=style.0fa65ad4.css.map */
